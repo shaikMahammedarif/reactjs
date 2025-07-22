@@ -1,0 +1,94 @@
+/* Container to hold all cards side by side */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;         /* allows wrapping on smaller screens */
+  gap: 16px;               /* space between cards */
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Styling for individual video cards */
+.video-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.video-card h1 {
+  font-size: 1.2rem;
+  margin: 12px 0 8px;
+  color: #333;
+}
+
+.video-card p {
+  margin: 4px 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+.dream-card {
+  width: 280px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.dream-card:hover {
+  transform: scale(1.03);
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.dream-card h2 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.dream-card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.stars {
+  font-size: 1.1rem;
+  color: gold;
+}

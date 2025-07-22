@@ -1,0 +1,128 @@
+/* Main container */
+.resume {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Title */
+.resume-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a73e8;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* Section container */
+.section {
+  margin-top: 40px;
+}
+
+/* Section headings */
+.section-title {
+  font-size: 1.5rem;
+  color: #1a73e8;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1a73e8;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs inside sections */
+.section-content {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Lists */
+.skills-list,
+.job-responsibilities,
+.certifications-list {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.skills-list li,
+.job-responsibilities li,
+.certifications-list li {
+  margin-bottom: 8px;
+}
+
+/* Jobs */
+.job {
+  margin-top: 20px;
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.job-company {
+  font-weight: 500;
+  color: #666;
+}
+
+.job-dates {
+  font-style: italic;
+  color: #888;
+}
+
+/* Projects */
+.project {
+  margin-top: 20px;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Contact links */
+.contact a {
+  color: #1a73e8;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .resume {
+    padding: 20px;
+  }
+
+  .resume-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .job-title,
+  .project-title {
+    font-size: 1.1rem;
+  }
+}
